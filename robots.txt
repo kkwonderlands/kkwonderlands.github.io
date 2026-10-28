@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kkwonderlands.github.io/sitemap.xml
