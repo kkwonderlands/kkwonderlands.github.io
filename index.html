@@ -26,9 +26,14 @@
   video { max-height:70vh; background:#000; }
   ul { padding-left:1.2em; margin:0; } li { margin:6px 0; }
   .support { margin-top:28px; color:var(--muted); }
+  .shots { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
+  .shots img { width:100%; border-radius:12px; }
+  details { margin:10px 0; } summary { cursor:pointer; font-weight:600; }
+  details p { margin:8px 0 0; color:var(--muted); }
   footer { margin-top:36px; color:var(--muted); font-size:.9rem; }
   a { color:var(--accent); }
 </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Lock 'n Rota","operatingSystem":"Android","applicationCategory":"UtilitiesApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"url":"https://play.google.com/store/apps/details?id=kk.rotate","author":{"@type":"Organization","name":"K&K Wonderland","url":"https://kkwonderlands.github.io/"}}</script>
 </head>
 <body>
 <main>
@@ -54,6 +59,24 @@
       <li>A Quick Menu with the most used buttons under your thumb</li>
       <li>Lock designs you can make your own</li>
     </ul>
+  </div>
+
+  <div class="card">
+    <div class="shots">
+      <img src="media/shot2.png" alt="Lock 'n Rota floating lock on the home screen" loading="lazy">
+      <img src="media/shot4.png" alt="Lock 'n Rota Quick Menu opened" loading="lazy">
+      <img src="media/shot6.png" alt="Lock 'n Rota design in blue" loading="lazy">
+      <img src="media/shot7.png" alt="Lock 'n Rota design in gold" loading="lazy">
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Questions</h2>
+    <details><summary>How do I lock the screen rotation?</summary><p>Tap the floating lock once. Your screen stays exactly as it is. Tap again to unlock.</p></details>
+    <details><summary>Can I move the lock?</summary><p>Yes. Hold the lock and slide it wherever you want it on the screen.</p></details>
+    <details><summary>What does the Quick Menu do?</summary><p>Two taps open it. It keeps the most used buttons right under your thumb, in a design you pick.</p></details>
+    <details><summary>Does it cost anything?</summary><p>No. Lock 'n Rota is free. Support is optional, via Ko-fi below.</p></details>
+    <details><summary>Which Android versions are supported?</summary><p>Current Android phones. Install it from Google Play and it picks the right version.</p></details>
   </div>
 
   <p class="support">Like the app? <a href="https://ko-fi.com/kkwonderland">Support us on Ko-fi</a> – totally optional, thank you!</p>
